@@ -9,7 +9,7 @@
   "scripts": {
     "backend": "ts-node ./backend/main.ts",
     "start": "vite preview",
-    "dev": "concurrently \"npm:start\" \"npm:backend\"",
+    "dev:all": "npm run build && concurrently \"npm:start\" \"npm:backend\"",
     "build": "vite build",
     "test": "ts-node test.ts"
   },
