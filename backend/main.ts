@@ -11,6 +11,9 @@ let qrdata = ""
 
 const client = new Client({
     authStrategy: new LocalAuth
+    puppeteer: {
+        args: ['--no-sandbox']
+    }
 })
 client.on('loading_screen', (percent, message) => {
     console.log('Carregando WhatsApp:', percent, message)
