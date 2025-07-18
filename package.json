@@ -1,0 +1,37 @@
+{
+  "name": "granzap",
+  "version": "1.0.0",
+  "description": "A Whatsapp SaaS for VPS",
+  "license": "ISC",
+  "author": "victorbillyph",
+  "type": "commonjs",
+  "main": "index.ts",
+  "scripts": {
+    "backend": "ts-node ./backend/main.ts",
+    "start": "vite preview",
+    "dev": "vite --host",
+    "build": "vite build",
+    "test": "ts-node test.ts"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.14",
+    "@types/qrcode": "^1.5.5",
+    "@vitejs/plugin-react": "^4.6.0",
+    "bun": "^1.2.18",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "ts": "^0.2.2",
+    "ts-node": "^10.9.2",
+    "vite": "^7.0.5",
+    "whatsapp-web.js": "^1.31.0"
+  },
+  "devDependencies": {
+    "@types/qrcode-terminal": "^0.12.2"
+  }
+}
