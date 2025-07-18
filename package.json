@@ -32,6 +32,7 @@
     "whatsapp-web.js": "^1.31.0"
   },
   "devDependencies": {
-    "@types/qrcode-terminal": "^0.12.2"
+    "@types/qrcode-terminal": "^0.12.2",
+    "concurrently": "^9.2.0"
   }
 }
